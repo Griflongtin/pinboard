@@ -1,0 +1,39 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../img/cork-board.jpg);
+}
+.hero{
+  position: relative;
+}
+
+.polaroid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 30%);
+}
+
+.polaroid img#frame {
+  width: 800px;
+}
+
+.polaroid img#peter {
+  z-index: 0;
+  position: absolute;
+  top: 400px;
+  left: 375px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.polaroid img#ugly {
+  z-index: 5;
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  margin-right: -50%;
+  transform: translate(-50%, -70%);
+}
